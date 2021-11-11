@@ -1,2 +1,50 @@
-# EPC_revealer
-Application for searching EPC devices in the local network
+# Revealer
+
+Приложение для поиска устройств в сети.
+
+## Установка в Windows
+
+Для установки необходимых зависимостей нужно запустить скрипт `install.bat`:
+
+```
+install.bat
+```
+
+## Установка в Linux
+
+Для установки необходимых зависимостей нужно запустить скрипт `install.sh`:
+
+```
+bash install.sh
+```
+
+## Запуск в Windows
+
+Для запуска нужно выполнить скрипт `run.bat`:
+
+```
+run.bat
+```
+
+## Запуск в Linux
+
+Для запуска нужно выполнить скрипт `run.sh`:
+
+```
+bash run.sh
+```
+
+## Релиз в Windows
+
+Для выпуска релиза нужно выполнить скрипт `release.bat`:
+```
+release.bat
+```
+## Релиз в Linux
+
+Для выпуска релиза нужно выполнить скрипт `release.sh`:
+
+```
+bash release.sh
+```
+
