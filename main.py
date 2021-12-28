@@ -2,10 +2,19 @@
 File to start application.
 """
 
+import logging
 import sys
 import traceback
 from PyQt5.QtWidgets import QApplication, QMessageBox
 from main_window import MainWindow
+
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(module)s.%(funcName)s: %(message)s")
+stream_handler = logging.StreamHandler()
+stream_handler.setFormatter(formatter)
+stream_handler.setLevel(logging.INFO)
+logger = logging.getLogger("revealer")
+logger.addHandler(stream_handler)
+logger.setLevel(logging.INFO)
 
 
 def exception_hook(exc_type: Exception, exc_value: Exception, exc_traceback: "traceback"):
