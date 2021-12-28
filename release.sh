@@ -12,7 +12,7 @@ python3 -m venv venv
 --add-data "./gui/*:gui" \
 --icon=gui/icon.ico
 
-cp readme.md ./dist
+cp README.md ./dist
 mv dist release
 mv ./release/main ./release/revealer
 
